@@ -1,0 +1,9 @@
+year=int(input("enter year"))
+if y%4==0 and y%100!=0:
+print("is a eap year",year)
+elif year%100=0:
+print("is not leap year",year)
+elif year%400==0:
+print("is a leap year",year)
+else:
+print("is not a leap year",year)
